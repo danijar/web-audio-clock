@@ -14,8 +14,8 @@ function startClock() {
 			tock.play();
 		else
 			tick.play();
-		seconds++;
 		elapsed.innerHTML = seconds.toString();
+		seconds++;
 	}, 1000);
 }
 
